@@ -1,0 +1,35 @@
+
+.product{
+    display: flex;
+}
+.left-product{
+    width: 75%;
+}
+.right-product{
+    text-align: center;
+    width: 25%;
+   border-left: solid rgb(233, 233, 233);
+}
+.left-product>h2{
+    margin-left: 25px;
+}
+#delete-Button:hover{
+    background-image: linear-gradient(to bottom, #cf8484, #ae5f5f);
+}
+#delete-Button{
+    background-image: linear-gradient(to bottom, #d50000, #cf0000);
+}
+.display-mobile{
+    margin-left: 20px;
+}
+
+.right-product div p span{
+margin-left: 10px;
+}
+.right-product div{
+    margin-top: 25px;
+}
+.right-product div p{
+text-align: left;
+margin-left: 27%;
+}

@@ -1,0 +1,596 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#nav1 {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 7px;
+    
+}
+
+#nav2 {
+   
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+.div2{
+    display: flex;
+}
+.shopping-cart{
+ background-color: skyblue;  
+ border: none; 
+ color: white;
+ padding: 15px 10px;
+ border-radius: 9px;
+ margin-right:  30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+#logoutButton{
+border: none;
+border-radius: 9px;
+color: white;
+background-color: rgb(255, 16, 16);
+padding: 5px 10px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+.nav-links2{
+    list-style: none;
+    display: flex;align-items: center; gap: 20px;
+}
+.nav-links2 a{
+    
+    margin: 0;padding: 0;
+    text-decoration: none;
+    transition: color 0.3s ease; color:black;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: lightgray;
+}
+
+.search-bar {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+.call-us{
+    font-size: x-large;
+}
+.search-bar button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: lightgray;
+    color: black;
+}
+.fa-house{
+    font-size:25px;
+}
+/* nav end */
+                  /* home start */
+.home{
+    display: flex;
+    margin-top: 10px;
+}
+/* right */
+.right{
+    margin-right: 10px;
+width: 71%; 
+   /* border: solid rgb(153, 51, 153); */
+}
+
+/* slideshow */
+.carousel img{
+    width: 100%;
+}
+/*slideshow */
+
+/* left */
+  .left{
+    /* border: solid rebeccapurple; */
+    text-align: center;
+    margin-left: 10px;  margin-right: 10px;
+    width: 24%;
+}
+#b-extra{
+    font-size:18px; 
+}
+.button1{
+    font-size:20px;
+border: none;
+background-image: linear-gradient(to bottom, #565656, #212121);
+color: white;
+padding: 3% 31%;
+border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.mob1{
+    margin-top: 10px;margin-left: 18px;
+    display: flex;
+    border-bottom: dashed rgb(196, 196, 196);width: 85%;
+}
+.mob1 img{
+width: 80px;
+margin-bottom: 10px;
+}
+.mob1 div p i{
+margin-left: 50px;
+}
+.mob1 div p:nth-child(2){
+margin-top: 20px;
+}
+.view{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 60%;
+    color: rgb(84, 84, 84);
+}
+/* 2 */
+.mob1 span{
+    margin-bottom: 10px;
+}
+.mob1 span i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+/* 3 */
+#fb{
+width: 60%;
+}
+/* display-mobile */
+.display-mobile{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+margin-top: 25px;
+gap: 20px;
+}
+.display-mobile div{
+    text-align: center;
+    border: solid rgb(231, 231, 231);
+    border-radius: 9px;
+}
+.display-mobile img{
+    padding-top: 15px;
+    width: 200px;
+}
+.display-mobile div span{
+    
+    display: flex;
+ margin-bottom: 10px;
+}
+.display-mobile div span p{
+    margin-left:15%;
+    margin-top:8px ;
+    color: rgb(198, 23, 23);
+}
+.display-mobile div span button:hover{
+    background-image: linear-gradient(to bottom, #abb8c2, #818181);
+}
+.display-mobile div span button{
+    padding: 10px ;height:35px;
+    border-radius: 9px;border: none; background-image: linear-gradient(to bottom, #ababab, #4c4c4c);
+    color: white;
+    margin-left: 10%;
+}
+/* Media query for responsiveness */
+@media screen and (max-width: 1200px) {
+    .call-us{
+        font-size: large;
+    }
+    .nav-links {
+        gap: 30px;
+        font-size: 15px;margin-left: -50px;
+    }
+    .search-bar {
+        margin-right: 40px;
+    }
+    .fa-house{
+        font-size:20px;
+    }
+    .carousel img{
+    width: 100%;
+    }
+    .button1{
+        font-size:16px;
+    padding: 3% 30%;
+    }
+    #b-extra{
+        font-size:15px; 
+    }
+    .mob1{
+       margin-left: 9px;
+    }
+    .mob1 div p{
+        font-size: 11px;
+    } 
+    .view{
+        margin-left: 50%;
+    }
+    .display-mobile{
+        grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    }
+    .display-mobile img{
+        padding-top: 15px;
+        width: 200px;
+    }
+    .display-mobile div p{
+        font-size: 14px;
+    }
+    .display-mobile div span{
+     margin-bottom: 10px;
+    }
+    .display-mobile div span p{
+        margin-left:15%;
+    }
+    .display-mobile div span button{
+        padding: 10px ;height:35px;
+        border-radius: 9px;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .nav-links {
+        gap: 20px;
+        font-size: 11px;margin-left: -50px;
+    }
+    .search-bar {
+        margin-right: 17px;
+    }
+#nav2{
+    font-size: 13px;
+}
+.nav-links2{
+   gap: 10px;
+} 
+.logo {
+    font-size: 14px;
+}
+.shopping-cart{
+    padding: 8px 10px;
+    margin-right:  15px;
+   }
+   .search-bar input{
+height: 6px;
+   }
+   .search-bar button {
+    padding: 5px 10px;
+   }
+   .mob1 div p i{
+    margin-left:19%;
+    }
+   .button1{
+    font-size:16px;
+padding: 3% 25%;
+}
+.mob1 img{
+    width: 70px;
+    }
+.mob1{
+   margin-left: 0px;
+}
+.mob1 div p{
+    font-size: 10px;
+} 
+.view{
+    margin-left: 40%;font-size: 13px;
+}
+.right{
+width: 70%; 
+}
+.left{
+    width: 29%;
+}
+
+ .display-mobile{
+    grid-template-columns: repeat(3, 0.8fr);
+gap: 20px;
+}
+.display-mobile img{
+    padding-top: 15px;
+    width: 150px;
+}
+.display-mobile div p{
+    font-size: 13px;
+}
+.display-mobile div span{
+ margin-bottom: 10px;
+}
+.display-mobile div span p{
+    margin-left:10px;
+    font-size: 14px;
+}
+.display-mobile div span button{
+    padding: 8px ;height:29px;
+    border-radius: 9px;
+    margin-left: 10%;
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 720px) {
+    .fa-house{
+        margin: 0;padding: 0;
+        font-size:15px;
+    }
+    .nav-links {
+        gap: 12px;
+        font-size: 9px; margin-left: -50px;
+    }
+    
+   .search-bar input{
+    width: 105px;
+height: 4px;
+   }
+   .search-bar button {
+    font-size: 10px;
+    
+    padding: 4px 4px;
+   }
+   #nav2{
+    font-size: 10px;
+}
+.nav-links2{
+   gap: 10px;
+} 
+.call-us{
+    font-size: small;
+}
+.logo {
+    font-size: 10px;
+}
+.shopping-cart{
+    font-size: 12px;
+    padding: 6px 8px;
+    margin-right:  10px;
+   }
+ 
+   .mob1 div p i{
+    margin-left:10%;
+    }
+   .button1{
+    font-size:96%;
+padding: 3% 17%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.mob1 span{
+    font-size: 11px;
+}
+.mob1 span i{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.mob1 img{
+    width: 50px;
+    }
+.mob1 div p{
+    font-size: 10px;
+} 
+.view{
+    margin-left: 30%;font-size: 10px;
+}
+.display-mobile{
+    grid-template-columns: repeat(3, 0.6fr);
+gap: 10px;
+}
+.display-mobile img{
+    padding-top: 9px;
+    width: 113px;
+}
+.display-mobile div p{
+    font-size: 10px;
+}
+.display-mobile div span{
+ margin-bottom: 7px;
+}
+.display-mobile div span p{
+    margin-left:13px;
+    font-size: 10px;
+}
+.display-mobile div span button{
+    padding: 8px ;
+    height:29px;
+    border-radius: 9px;
+    margin-left: 10%;
+    font-size: 7px;
+}
+}
+@media screen and (max-width: 520px) {
+    .fa-house{
+        margin: 0;padding: 0;
+        font-size:10px;
+    }
+    .nav-links {
+        gap: 10px;
+        font-size: 9px;
+        margin-left: -70px;
+    }
+    #nav1{
+        display: flex ;
+        flex-direction: column;
+    }
+
+    .nav-links2{
+        gap: 2px;
+        font-size: xx-small;
+     } 
+     .call-us{
+         font-size: xx-small;
+     }
+     .logo {
+        margin-left: -10px;
+         font-size: 7px;
+     }
+     .shopping-cart{
+         font-size: 7px;
+         padding: 6px 8px;
+         margin-right: -10px;
+        }
+          /*        gf  h   u   h    fg    u     8   u    g     f  u   u  67   h    u    f    h     h  */
+          .mob1 span{
+            font-size: 8px;
+        }
+        .mob1 span i{
+            font-size: 12px;
+            margin-left: 5px;
+            margin-right:10px;
+        }
+   .mob1 div p i{
+    margin-left:10%;
+    }
+   .button1{
+    font-size:75%;
+padding: 3% 17%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#b-extra{
+    font-size:11px; 
+}
+.mob1 img{
+    width: 35px;
+    }
+.mob1 div p{
+    font-size: 7px;
+} 
+.view{
+    margin-left: 30%;font-size: 10px;
+}
+.mob1 div p:nth-child(2){
+    margin-top: 7px;
+    }
+    /* 7f7f7 7f7f7 777777 7 7 7 7 77 7 7 7 77 7 7 7 7  */
+.display-mobile{
+    grid-template-columns: repeat(3, 0.6fr);
+gap: 10px;
+}
+.display-mobile img{
+    padding-top: 9px;
+    width: 70px;
+}
+.display-mobile div p{
+    font-size: 8px;
+}
+.display-mobile div span{
+ margin-bottom: 7px;
+}
+.display-mobile div span p{
+    margin-left:5px;
+    font-size: 8px;
+}
+.display-mobile div span button{
+    padding: 5px ;
+    height:20px;
+    border-radius: 9px;
+    margin-left: 5%;
+    font-size: 5px;
+}
+}
+
+/*  */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    background-color:black;
+    color: white;
+    padding: 20px 0;
+   
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer a:visited {
+    color: lightgray;
+}
+
+
+.footer-content {
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: left; */
+    color:rgb(62, 245, 62);
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section h3,
+.footer-section p {
+    margin: 0;
+}
+.footer-bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center; /* Center items in the column */
+    }
+    
+    .footer-section {
+        margin-top: 20px; /* Add space between sections in the column layout */
+    }
+}

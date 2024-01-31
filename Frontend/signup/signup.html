@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile</title>
+    <link rel="stylesheet" href="../login/login.css">
+</head>
+<body>
+  
+    <div id="mainDiv">
+        
+        <div id="formDiv">
+            <h2>Create your Account</h2><br><br>
+            <div>
+              <p >User Name</p>
+              <input id="userName" placeholder="Full Name" type="email"><br>
+    <p >Email</p>
+    <input id="email" placeholder="Email" type="email"><br>
+    <p >Password</p>
+    <input placeholder="Password" id="password" type="password"><br>
+    <p >Mobile</p>
+    <input placeholder="Mobile Number" id="mobile" type="number"><br>
+
+    <p id="error"></p><br>
+    <button onclick="register()" >Register</button></div> <br>
+    <p id="dont">Have any Account? <span routerLink="login"> <a href="../login/login.html">Login here</a></span></p><br>
+        </div>
+       
+    </div>
+
+    <!-- <div   class="modal" id="myModal">
+        <div class="modal-content">
+          <span (click)="sub()" class="close" id="closePopupBtn">&times;</span>
+          <h4>Enter 4-Digit Code</h4>
+          
+            <input type="text" [(ngModel)]="newOTP" id="codeInput" pattern="[0-9]{4}" maxlength="4" placeholder="Enter code" required>
+            <button (click)="sub()" >Submit</button>
+          
+        </div>
+      </div> -->
+
+    </body>
+</html>
+<script src="./signup.js"></script>
