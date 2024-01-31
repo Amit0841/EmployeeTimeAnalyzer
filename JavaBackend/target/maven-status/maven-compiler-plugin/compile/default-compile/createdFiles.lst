@@ -1,0 +1,14 @@
+com\masai\service\UsersDetailsService.class
+com\masai\controller\MobileController.class
+com\masai\JavaBackendApplication.class
+com\masai\service\CustomerServiceInterface.class
+com\masai\service\MobileService.class
+com\masai\model\Customer.class
+com\masai\model\Orders.class
+com\masai\controller\CartController.class
+com\masai\model\Cart.class
+com\masai\controller\OrdersController.class
+com\masai\service\MobileServiceInterface.class
+com\masai\service\CustomerService.class
+com\masai\controller\CustomerController.class
+com\masai\model\Mobile.class
